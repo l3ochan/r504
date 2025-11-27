@@ -193,12 +193,12 @@
             "formateurs"
         ],
         "view": "Formations/formFormation",
-        "form_action": "/modifyFormation",
+        "form_action": "/createFormation",
         "del_label": "Formation",
         "libelle": "Modification",
         "title": "Modifier une formation de l'application :"
     },
-    "POST/modifyFormation": {
+    "POST/createFormation": {
         "controler": "sql/insertSQL",
         "sql_query": "INSERT INTO formations (libelle, duree, plan_cours, prix, id_formateur) VALUES(?,?,?,?,?)",
         "params_query": [
@@ -209,7 +209,8 @@
         "id_formateur"
         ],
         "redirect": "/formations"
-    }
+    },
+
 
 }
  
