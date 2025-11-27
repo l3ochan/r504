@@ -199,9 +199,17 @@
         "title": "Modifier une formation de l'application :"
     },
     "POST/createFormation": {
-        "controler": "nosql/updateById",
-        "modelName": "formations",
-        "view": "modifyFormation"
+        "controler": "sql/insertSQL",
+        "sql_query": "INSERT INTO formations (libelle, duree, plan_cours, prix, id_formateur) VALUES(?,?,?,?,?)",
+        "params_query": [
+        "libelle",
+        "duree",
+        "plan_cours",
+        "prix",
+        "id_formateur"
+        ],
+        "redirect": "/formations"
     }
+
 }
  
