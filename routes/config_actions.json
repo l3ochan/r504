@@ -162,25 +162,25 @@
     "GET/jsonCountries": {
         "controler": "sql/selectSQL",
         "sql_query": "SELECT * FROM countries",
-        "view": "Countries/tabcountries.hbs",
+        "view": "Countries/tabcountries",
         "return_type": "application/json"
     },
     "GET/tab_countries": {
         "controler": "sql/selectSQL",
         "sql_query": "SELECT * FROM countries",
-        "view": "Countries/tabcountries.hbs",
+        "view": "Countries/tabcountries",
         "title": "Liste des Pays"
     },
     "GET/tab_communes": {
         "controler": "sql/selectSQL",
         "sql_query": "SELECT * FROM countries",
-        "view": "Communes/tabcommunes.hbs",
+        "view": "Communes/tabcommunes",
         "title": "Liste des communes"
     },
     "GET/formations": {
         "controler": "sql/selectSQL",
         "sql_query": "SELECT * FROM formations",
-        "view": "Formations/liste_formations.hbs",
+        "view": "Formations/liste_formations",
         "title": "Liste des formations"
     },
     "GET/newFormation": {
@@ -192,7 +192,7 @@
         "tables_list": [
             "formateurs"
         ],
-        "view": "Formations/formFormation.hbs",
+        "view": "Formations/formFormation",
         "form_action": "/modifyFormation",
         "del_label": "Formation",
         "libelle": "Modification",
