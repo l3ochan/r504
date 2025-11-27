@@ -192,7 +192,7 @@
         "tables_list": [
             "formateurs"
         ],
-        "view": "Formations/formFormation",
+        "view": "Formations/formFormation.hbs",
         "form_action": "/modifyFormation",
         "del_label": "Formation",
         "libelle": "Modification",
