@@ -168,7 +168,7 @@
     "GET/formations": {
         "controler": "sql/selectSQL",
         "sql_query": "SELECT * FROM formations",
-        "view": "Formations/liste_formations",
+        "view": "Formations/liste_formations.hbs",
         "title": "Liste des formations"
     }
 }
