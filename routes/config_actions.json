@@ -209,6 +209,25 @@
         "id_formateur"
         ],
         "redirect": "/formations"
+    },
+    "GET/formFormation": {
+        "controler": "sql/selectByIdAndListSchemas",
+        "sql_query": "SELECT * FROM formations WHERE id_formation=?",
+        "sql_list": [
+            "SELECT * FROM countries"
+        ],
+        "tables_list": [
+            "countries"
+        ],
+        "view": "Users/formUser",
+        "form_action": "/modifyUser",
+        "del_label": "Utilisateur",
+        "libelle": "Modification",
+        "title": "Modifier un Utilisateur de l'application :"
     }
+
+
+
+
 }
  
