@@ -198,7 +198,7 @@
         "libelle": "Modification",
         "title": "Modifier une formation de l'application :"
     },
-    "POST/createFormation": {
+    "POST/modifyFormation": {
         "controler": "sql/insertSQL",
         "sql_query": "INSERT INTO formations (libelle, duree, plan_cours, prix, id_formateur) VALUES(?,?,?,?,?)",
         "params_query": [
