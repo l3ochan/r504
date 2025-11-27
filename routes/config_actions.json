@@ -195,8 +195,8 @@
         "view": "Formations/formFormation",
         "form_action": "/createFormation",
         "del_label": "Formation",
-        "libelle": "Modification",
-        "title": "Modifier une formation de l'application :"
+        "libelle": "Création",
+        "title": "Créer une formation de l'application"
     },
     "POST/createFormation": {
         "controler": "sql/insertSQL",
