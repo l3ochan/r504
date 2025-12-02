@@ -168,7 +168,11 @@
     "GET/newAtome": {
         "controler": "sql/selectListSchemas",
         "sql_query": "SELECT * FROM atomes",
-        "view": "Countries/tabcountries.hbs",
-        "return_type": "application/json"
+        "view": "Atomes/formAtome",
+        "return_type": "application/json",
+        "form_action": "/createAtome",
+        "del_label": "Atome",
+        "libelle": "Création",
+        "title": "Ajouter un Atome à l'application :"
     }
 }
