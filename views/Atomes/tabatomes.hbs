@@ -1,0 +1,32 @@
+<table id="example">
+<thead>
+   <tr> 
+    <th>nom</th>
+    <th>symbole</th>
+    <th>numero</th>
+    <th>electron</th>
+    <th>masse_volumique</th>
+    <th>masse_atomique</th>
+    <th>is_radioactif</th>
+   </tr>
+</thead>
+<tbody>
+{{#each data}}
+   <tr>
+    <td>{{this.nom}}</td>
+    <td>{{this.symbole}}</td>
+    <td>{{this.numero}}</td>
+    <td>{{this.electron}}</td>
+    <td>{{this.masse_volumique}}</td>
+    <td>{{this.masse_atomique}}</td>
+    <td>{{this.is_radioactif}}</td>
+   </tr>
+{{/each}}
+</tbody>
+</table>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    let table = new DataTable('#example');
+});
+</script>

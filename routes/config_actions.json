@@ -174,5 +174,11 @@
         "del_label": "Atome",
         "libelle": "Création",
         "title": "Ajouter un Atome à l'application :"
+    },
+        "GET/jsonAtome": {
+        "controler": "sql/selectSQL",
+        "sql_query": "SELECT * FROM atome",
+        "view": "Atomes/tabatome.hbs",
+        "return_type": "application/json"
     }
 }
