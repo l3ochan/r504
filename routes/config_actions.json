@@ -177,6 +177,6 @@
         "GET/tabAtome": {
         "controler": "sql/selectSQL",
         "sql_query": "SELECT * FROM atome",
-        "view": "Atomes/tabatome.hbs"
+        "view": "Atomes/tabatomes"
     }
 }
