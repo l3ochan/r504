@@ -197,5 +197,10 @@
             "is_radioactif"
         ],
         "redirect": "/atomes"
+    },
+    "GET/atomes": {
+        "controler": "sql/selectSQL",
+        "sql_query": "SELECT * FROM atome",
+        "view": "Atomes/atomes"
     }
 }
