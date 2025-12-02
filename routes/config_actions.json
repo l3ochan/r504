@@ -167,7 +167,7 @@
     },
     "GET/newAtome": {
         "controler": "sql/selectSQL",
-        "sql_query": "SELECT * FROM atomes",
+        "sql_query": "SELECT * FROM atome",
         "view": "Atomes/formAtome",
         "return_type": "application/json",
         "form_action": "/createAtome",
