@@ -229,6 +229,6 @@
     "GET/deleteAtome": {
         "controler": "sql/deleteSQLById",
         "sql_query": "DELETE FROM atome WHERE id=?",
-        "redirect": "/atome"
+        "redirect": "/atomes"
     }
 }
