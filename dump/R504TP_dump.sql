@@ -1,6 +1,6 @@
 -- MySQL dump 10.19  Distrib 10.3.38-MariaDB, for debian-linux-gnu (x86_64)
 --
--- Host: mariadb    Database: r504
+-- Host: localhost    Database: R504TP
 -- ------------------------------------------------------
 -- Server version	10.3.38-MariaDB-0ubuntu0.20.04.1
 
@@ -16,12 +16,12 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Current Database: `r504`
+-- Current Database: `R504TP`
 --
 
-CREATE DATABASE /*!32312 IF NOT EXISTS*/ `r504` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci */;
+CREATE DATABASE /*!32312 IF NOT EXISTS*/ `R504TP` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci */;
 
-USE `r504`;
+USE `R504TP`;
 
 --
 -- Table structure for table `communes`

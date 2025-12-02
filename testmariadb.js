@@ -1,8 +1,8 @@
 const mariadb = require('mariadb');
 const pool = mariadb.createPool({
-    host: 'mariadb',
-    user: 'r504',
-    password: 'r504',
+    host: 'localhost',
+    user: 'admin',
+    password: 'password',
     connectionLimit: 5
 });
 pool.getConnection()
