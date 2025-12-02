@@ -22,11 +22,11 @@
                     </div>
                     <div class="inputbox">
                         <input type="text" name="Masse volumique" value="{{data.masse_volumique}}" class="form-control" />
-                        <span>masse_volumique</span>
+                        <span>masse volumique</span>
                     </div>
                      <div class="inputbox">
                         <input type="text" name="Masse atomique" value="{{data.masse_atomique}}" class="form-control" />
-                        <span>masse_atomique</span>
+                        <span>masse atomique</span>
                     </div>
                      <div class="inputbox">
                         <button>Confirmer la {{libelle}}</button>
@@ -34,16 +34,12 @@
                 </td>
                 <td>
                     <div class="inputbox">
-                        <select id="country" name="code_countries">
-                            {{#each datas.countries}}
-                                {{#compare ../data.code_countries this.code operator='=='}}
-                                    <option value="{{this.code}}" selected>{{this.name_fr}} - {{this.code}}</option>
-                                {{else}}
-                                    <option value={{this.code}}>{{this.name_fr}} - {{this.code}}</option>
-                                {{/compare}}
-                            {{/each}}
+                        <select id="choix-binaire">
+                            <option value="0">Non</option> 
+                            
+                            <option value="1">Oui</option>
                         </select>
-                        
+                        <span>Est radioactif</span>
                     </div>
                     <div class="inputbox">
                          <button value="" type="button" id="delbtn" class="button">Supprimer l'{{del_label}}</button>
